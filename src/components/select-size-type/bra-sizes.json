@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_select_size_type_bra_sizes",
+  "info": {
+    "displayName": "Bra Sizes"
+  },
+  "options": {},
+  "attributes": {
+    "braSizes": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "2XS A-B",
+        "XS A-B",
+        "S A-B",
+        "M A-B",
+        "L A-B",
+        "XL A-B",
+        "2X A-B",
+        "2XS C-D",
+        "XS C-D",
+        "S C-D",
+        "M C-D",
+        "L C-D",
+        "XL C-D",
+        "2X C-D",
+        "XS DD-F",
+        "S DD-F",
+        "M DD-F",
+        "L DD-F",
+        "XL DD-F",
+        "2X DD-F"
+      ],
+      "required": false,
+      "min": 1
+    }
+  },
+  "config": {}
+}

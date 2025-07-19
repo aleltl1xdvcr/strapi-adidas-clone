@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_nav_new_and_trending_collections",
+  "info": {
+    "displayName": "Collections"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Collections",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "4D",
+        "adizero",
+        "Copa",
+        "F50",
+        "Five Ten",
+        "Supernova",
+        "TERREX",
+        "Tiro",
+        "Ultraboost"
+      ],
+      "required": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

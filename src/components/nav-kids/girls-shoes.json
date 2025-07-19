@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_nav_kids_girls_shoes",
+  "info": {
+    "displayName": "Girls Shoes"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Girls Shoes",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Soccer",
+        "Slip-On & Straps",
+        "Sneakers",
+        "Slides & Sandals"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

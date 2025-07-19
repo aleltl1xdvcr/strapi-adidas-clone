@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_nav_men_section_new_and_trendings",
+  "info": {
+    "displayName": "Section New & Trending"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "required": true,
+      "min": 1,
+      "options": [
+        "New Arrivals",
+        "Best Sellers",
+        "Graphic Tees",
+        "Liberty London Florals"
+      ]
+    },
+    "SectionName": {
+      "type": "string",
+      "default": "New & Trending",
+      "required": true,
+      "unique": true
+    }
+  },
+  "config": {}
+}

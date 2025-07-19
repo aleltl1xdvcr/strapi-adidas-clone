@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_nav_women_s_sections",
+  "info": {
+    "displayName": "Women's Section"
+  },
+  "options": {},
+  "attributes": {
+    "NewAndTrending": {
+      "type": "component",
+      "component": "nav-women.new-and-trending",
+      "repeatable": false,
+      "required": true
+    },
+    "Shoes": {
+      "type": "component",
+      "component": "nav-women.shoes",
+      "repeatable": false,
+      "required": true
+    },
+    "Clothing": {
+      "type": "component",
+      "component": "nav-women.clothing",
+      "repeatable": true,
+      "required": true
+    },
+    "Accesories": {
+      "type": "component",
+      "component": "nav-women.accesories",
+      "repeatable": false,
+      "required": true
+    },
+    "ShopBySport": {
+      "type": "component",
+      "component": "nav-women.shop-by-sport",
+      "repeatable": false,
+      "required": true
+    },
+    "ShopByCollection": {
+      "type": "component",
+      "component": "nav-women.shop-by-collection",
+      "repeatable": false,
+      "required": true
+    }
+  },
+  "config": {}
+}

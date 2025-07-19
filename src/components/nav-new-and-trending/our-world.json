@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_nav_new_and_trending_our_worlds",
+  "info": {
+    "displayName": "Our World"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Our World",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Impact",
+        "People",
+        "Planet",
+        "Community",
+        "adiclub"
+      ],
+      "required": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_nav_kids_shop_by_sports",
+  "info": {
+    "displayName": "Shop by Sport"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Shop by Sport",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Baseball",
+        "Basketball",
+        "Football",
+        "Golf",
+        "Motorsport",
+        "Outdoor",
+        "Running",
+        "Soccer",
+        "Volleyball"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

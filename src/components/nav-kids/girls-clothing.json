@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_nav_kids_girls_clothings",
+  "info": {
+    "displayName": "Girls Clothing"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Girls Clothing",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Tracksuits",
+        "Pants",
+        "Hoodies & Sweatshirts",
+        "T-Shirts & Tops",
+        "Shorts",
+        "Tights & Leggings",
+        "Jackets & Coats",
+        "Matching Sets"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

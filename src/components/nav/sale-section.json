@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_nav_sale_sections",
+  "info": {
+    "displayName": "Sale section"
+  },
+  "options": {},
+  "attributes": {
+    "FeaturedSale": {
+      "type": "component",
+      "component": "nav-sale.featured-sale",
+      "repeatable": false,
+      "required": true
+    },
+    "Men": {
+      "type": "component",
+      "component": "nav-sale.men",
+      "repeatable": false,
+      "required": true
+    },
+    "Women": {
+      "type": "component",
+      "component": "nav-sale.women",
+      "repeatable": false,
+      "required": true
+    },
+    "Kids": {
+      "type": "component",
+      "component": "nav-sale.kids",
+      "repeatable": false,
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_nav_kids_boys_shoes",
+  "info": {
+    "displayName": "Boys Shoes"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Boys Shoes",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Soccer",
+        "Slip-On & Straps",
+        "Sneakers",
+        "Basketball",
+        "Slides & Sandals"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

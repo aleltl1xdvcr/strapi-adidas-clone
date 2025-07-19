@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_nav_section_lists",
+  "info": {
+    "displayName": "Section Shoes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "list": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "required": true,
+      "options": [
+        "x",
+        "y"
+      ]
+    }
+  },
+  "config": {}
+}

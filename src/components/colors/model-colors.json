@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_colors_model_colors",
+  "info": {
+    "displayName": "Model Colors"
+  },
+  "options": {},
+  "attributes": {
+    "Model_Name": {
+      "type": "string",
+      "minLength": 2,
+      "required": true,
+      "unique": false
+    },
+    "currentColor": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  },
+  "config": {}
+}

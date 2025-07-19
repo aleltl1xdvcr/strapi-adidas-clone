@@ -1,0 +1,73 @@
+{
+  "kind": "singleType",
+  "collectionName": "navigation_bars",
+  "info": {
+    "singularName": "navigation-bar",
+    "pluralName": "navigation-bars",
+    "displayName": "Navigation Bar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "MensSection": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "nav.men-s-section",
+      "repeatable": false,
+      "required": true
+    },
+    "WomenSection": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "nav.women-s-section",
+      "repeatable": false,
+      "required": true
+    },
+    "KidsSection": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "nav.kid-s-section",
+      "repeatable": false
+    },
+    "SaleSection": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "nav.sale-section",
+      "repeatable": false,
+      "required": true
+    },
+    "NewAndTrendingSection": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "nav.new-and-trending-section",
+      "repeatable": false,
+      "required": true
+    }
+  }
+}

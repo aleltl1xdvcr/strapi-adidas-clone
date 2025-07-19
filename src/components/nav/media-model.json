@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_nav_media_models",
+  "info": {
+    "displayName": "Media Model"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

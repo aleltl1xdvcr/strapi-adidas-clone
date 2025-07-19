@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_nav_kids_accesories",
+  "info": {
+    "displayName": "Accesories"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Accesories",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Backpacks & Bags",
+        "Hats",
+        "Socks"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

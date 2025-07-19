@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_product_overview_colors",
+  "info": {
+    "displayName": "Color"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "minLength": 2,
+      "required": true,
+      "unique": true
+    },
+    "ModelImage": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "currentColor": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  },
+  "config": {}
+}

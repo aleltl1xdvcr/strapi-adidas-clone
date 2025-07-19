@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_select_size_type_clothing",
+  "info": {
+    "displayName": "Clothing"
+  },
+  "options": {},
+  "attributes": {
+    "ClothingSizes": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "required": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

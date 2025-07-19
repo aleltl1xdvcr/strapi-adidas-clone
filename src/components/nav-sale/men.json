@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_nav_sale_men",
+  "info": {
+    "displayName": "Men"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Men",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Shoes ",
+        "Clothing",
+        "Accesories",
+        ""
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_nav_kids_babies_and_toddlers",
+  "info": {
+    "displayName": "Babies & Toddlers"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Babies & Toddlers",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Baby Girl",
+        "Baby Boy",
+        "All Shoes ",
+        "All Clothing",
+        ""
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

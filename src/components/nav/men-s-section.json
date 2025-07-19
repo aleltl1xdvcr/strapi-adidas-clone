@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_nav_men_s_sections",
+  "info": {
+    "displayName": "Men's section"
+  },
+  "options": {},
+  "attributes": {
+    "NewAndTrending": {
+      "type": "component",
+      "component": "nav-men.section-new-and-trending",
+      "repeatable": false,
+      "required": true
+    },
+    "Shoes": {
+      "type": "component",
+      "component": "nav-men.shoes",
+      "repeatable": false,
+      "required": true
+    },
+    "Clothing": {
+      "type": "component",
+      "component": "nav-men.clothing",
+      "repeatable": false,
+      "required": true
+    },
+    "Accesories": {
+      "type": "component",
+      "component": "nav-men.accesories",
+      "repeatable": false,
+      "required": true
+    },
+    "ShopBySport": {
+      "type": "component",
+      "component": "nav-men.shop-by-sport",
+      "repeatable": false,
+      "required": true
+    },
+    "ShopByCollection": {
+      "type": "component",
+      "component": "nav-men.shop-by-collection",
+      "repeatable": false,
+      "required": true
+    }
+  },
+  "config": {}
+}

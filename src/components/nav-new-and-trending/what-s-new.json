@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_nav_new_and_trending_what_s_new_s",
+  "info": {
+    "displayName": "What's new?"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "What's new?",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "New Arrivals",
+        "Best Sellers",
+        "Trending Now",
+        "Release Dates",
+        "Blog"
+      ],
+      "required": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

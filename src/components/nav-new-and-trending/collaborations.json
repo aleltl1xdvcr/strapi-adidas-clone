@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_nav_new_and_trending_collaborations",
+  "info": {
+    "displayName": "Collaborations"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Collaborations",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "options": [
+        "adidas by Stella McCartney",
+        "Bad Bunny",
+        "Bape",
+        "Disney",
+        "Edison Chen",
+        "Fear of God Athletics",
+        "Pharrell",
+        "Prada",
+        "Sporty & Rich",
+        "Wales Bonner",
+        "Y-3"
+      ],
+      "required": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

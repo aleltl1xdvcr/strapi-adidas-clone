@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mens",
+  "info": {
+    "singularName": "men",
+    "pluralName": "mens",
+    "displayName": "Men"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "DynamicSizes": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "select-size-type.clothing",
+        "select-size-type.standard-sizes",
+        "select-size-type.men-s-sizes",
+        "select-size-type.kids-sizes"
+      ],
+      "required": true,
+      "max": 1
+    },
+    "sectionTypeMetadata": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "men.product-specifications"
+      ],
+      "required": true,
+      "max": 1
+    },
+    "ModelColors": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "product-overview.color"
+      ],
+      "required": false
+    },
+    "slug": {
+      "type": "uid",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "previewTitle": {
+      "type": "string",
+      "private": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "unique": false
+    }
+  }
+}

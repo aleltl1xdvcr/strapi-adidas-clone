@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "singularName": "item",
+    "pluralName": "items",
+    "displayName": "Items"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "DynamicSizes": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "select-size-type.standard-sizes",
+        "select-size-type.men-s-sizes",
+        "select-size-type.clothing",
+        "select-size-type.kids-sizes",
+        "select-size-type.children-clothing-sizes",
+        "select-size-type.bra-sizes",
+        "select-size-type.dual-sizes"
+      ],
+      "required": false,
+      "max": 1
+    },
+    "Metadata": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "men.product-specifications"
+      ],
+      "required": true,
+      "max": 1
+    },
+    "ModelColors": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "product-overview.color"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "previewTitle": {
+      "type": "string",
+      "private": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    }
+  }
+}

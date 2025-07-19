@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_nav_kids_new_and_trendings",
+  "info": {
+    "displayName": "New & Trending"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "New & Trending",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "New Arrivals",
+        "Best Sellers",
+        "Disney Collection",
+        "Shoes Under $80",
+        "Graphic Tees",
+        "Liberty London Florals"
+      ],
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_nav_men_accesories",
+  "info": {
+    "displayName": "Accesories"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Accesories",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Bags & Backpacks",
+        "Balls",
+        "Gloves",
+        "Hats",
+        "Socks",
+        "Underwear",
+        "Water Bottles"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

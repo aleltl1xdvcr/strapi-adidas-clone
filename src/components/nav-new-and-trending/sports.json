@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_nav_new_and_trending_sports",
+  "info": {
+    "displayName": "Sports"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Sports",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Baseball",
+        "Basketball",
+        "Cricket",
+        "Football",
+        "Golf",
+        "Motorsport",
+        "Outdoor",
+        "Rugby",
+        "Running",
+        "Soccer",
+        "Skateboarding",
+        "Tennis",
+        "Workout",
+        "Volleyball",
+        "Weightlifting",
+        "Yoga"
+      ],
+      "required": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

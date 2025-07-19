@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_nav_sale_women",
+  "info": {
+    "displayName": "Women"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Women",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "x"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

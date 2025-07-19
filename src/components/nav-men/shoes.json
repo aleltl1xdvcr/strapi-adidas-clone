@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_nav_men_shoes",
+  "info": {
+    "displayName": "Shoes"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Shoes",
+      "required": true
+    },
+    "List": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Running",
+        "Soccer ",
+        "Sneakers",
+        "Basketball ",
+        "Golf ",
+        "Slides & Sandals",
+        "Workout & Gym",
+        "Shoes 100% & under"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,290 @@
+{
+  "collectionName": "components_men_new_and_trending_new_arrivals",
+  "info": {
+    "displayName": "New Arrivals"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "minLength": 2,
+      "required": true,
+      "unique": true
+    },
+    "Categories": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Men's",
+        "Women's",
+        "Originals",
+        "TERREX",
+        "Kids"
+      ],
+      "required": true,
+      "min": 1
+    },
+    "Price": {
+      "type": "decimal",
+      "required": true,
+      "unique": false,
+      "min": 0.1
+    },
+    "Media": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "Gender": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Men",
+        "Women",
+        "Kids",
+        "Unisex"
+      ],
+      "required": true,
+      "max": 1
+    },
+    "Category": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Clothing",
+        "Shoes",
+        "Accesories"
+      ],
+      "required": true,
+      "max": 1
+    },
+    "Activity": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Casual",
+        "Athletic",
+        "Gaming",
+        "Premium",
+        "Outdoor"
+      ],
+      "required": true,
+      "max": 1
+    },
+    "ProductType": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Sneakers",
+        "Pants",
+        "Shorts",
+        "T Shirts",
+        "Short Sleeve Shirts",
+        "Hoodies & Sweatshirts",
+        "Track Suits",
+        "Jackets",
+        "Jerseys",
+        "Cleats",
+        "Bags",
+        "Hats",
+        "Socks",
+        "Tank Tops",
+        "Skirts & Dresses",
+        "Tights & Leggings",
+        "Slides",
+        "Long Sleeve Shirts",
+        "Matching Set",
+        "Platform",
+        "Flats",
+        "Swimwear",
+        "Sandals",
+        "High Tops",
+        "Sport Bras",
+        "Water Bottles",
+        "Vests",
+        "Bike Shoes",
+        ""
+      ],
+      "required": true,
+      "max": 1
+    },
+    "Sport": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Lifestyle",
+        "Soccer",
+        "Workout",
+        "Golf",
+        "Training",
+        "Running",
+        "Basketball",
+        "Hiking",
+        "Yoga",
+        "Swim",
+        "Tennis",
+        "Football",
+        "Weightlifting",
+        "HIIT",
+        "Volleyball",
+        "Skateboarding",
+        "Boxing",
+        "Baseball",
+        "Dance ",
+        "Trail Running",
+        "Cycling",
+        "Motorsport",
+        "Mountain Biking",
+        "Softball",
+        "Rugby",
+        "Climbing",
+        "Cricket",
+        "Skiing",
+        "Snowboarding",
+        "Handball",
+        "Track & Field",
+        "Water Sports",
+        ""
+      ],
+      "max": 1,
+      "required": true
+    },
+    "Features": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Quick Dry",
+        "Moisture Wicking",
+        "Lightweight",
+        "Cushioned",
+        "Breathable",
+        "Stability",
+        "Stretch",
+        "Waterproof",
+        "Water-Repellent",
+        "Zip Pockets",
+        "Windproof",
+        "Low Profile",
+        "Spikeless",
+        "Shock Absorption",
+        "Laptop Compatible",
+        "Ankle zips",
+        "Compression",
+        "Pleated",
+        "Water-Resistant",
+        "Mesh",
+        "Spiked",
+        "LED Lights",
+        "Hooded",
+        "Insulated"
+      ],
+      "max": 1,
+      "required": true
+    },
+    "Color": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Black",
+        "White",
+        "Gray",
+        "Blue",
+        "Red",
+        "Green",
+        "Pink",
+        "Brown",
+        "Light brown",
+        "Purple",
+        "Aqua",
+        "Wine",
+        "Yellow",
+        "Orange",
+        "Silver",
+        "Multi",
+        "Gold",
+        "Multicolor"
+      ],
+      "required": true
+    },
+    "Collection": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "70s",
+        "adicolor",
+        "Ultimate",
+        "Ultimate365",
+        "2000s",
+        "Gazelle",
+        "Teamwear",
+        "adizero",
+        "Campus",
+        "90s",
+        "Tiro",
+        "ALL SZN",
+        "RDY",
+        "Designed for Training",
+        "SL 72",
+        "Agravic"
+      ]
+    },
+    "Material": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Recycled Polyester",
+        "Cotton",
+        "Leather Upper",
+        "Textile Upper",
+        "Recycled Nylon",
+        "Synthetic Upper",
+        "Fleece",
+        "Denim",
+        "Satin",
+        "Nylon",
+        "Twistweave",
+        "Knit",
+        "Twistknit",
+        "Cashmere",
+        "Corduroy",
+        "French Terry",
+        "Metal",
+        "Velour",
+        "Velvet",
+        "Woven"
+      ],
+      "required": true
+    },
+    "Brand": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Originals",
+        "Performance",
+        "Sportswear",
+        "TERREX",
+        "adidas by Stella McCartney",
+        "Y-3",
+        "Five Ten",
+        ""
+      ],
+      "required": false
+    }
+  },
+  "config": {}
+}

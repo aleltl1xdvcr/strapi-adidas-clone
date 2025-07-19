@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_nav_women_clothing",
+  "info": {
+    "displayName": "Clothing"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "required": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "required": true,
+      "options": [
+        "Pants ",
+        "Dresses & Skirts",
+        "Tights & Leggings",
+        "Plus Size",
+        "Tracksuites",
+        "T-Shirts & Tops",
+        "Sports Bras",
+        "Shorts",
+        "Hoodies & Sweatshirts",
+        "Jackets & Coats"
+      ]
+    }
+  },
+  "config": {}
+}

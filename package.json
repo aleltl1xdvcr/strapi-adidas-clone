@@ -1,0 +1,39 @@
+{
+  "name": "strapi-adidas-clone",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.15.1",
+    "@strapi/plugin-users-permissions": "5.15.1",
+    "@strapi/provider-upload-cloudinary": "^5.15.1",
+    "@strapi/strapi": "5.15.1",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "strapi-plugin-multi-select": "^2.1.1",
+    "strapi-plugin-slugify": "^2.3.8",
+    "strapi-plugin-strapi-algolia": "^2.0.4",
+    "styled-components": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "90445407-07ee-4f9d-9d3b-8f0ba6d31e74",
+    "installId": "2291a3d008e98e4dd98204cf579465b61c753cbb327c50de8b9f9a1b683aca0f"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_select_size_type_dual_sizes",
+  "info": {
+    "displayName": "Dual Sizes"
+  },
+  "options": {},
+  "attributes": {
+    "dualSizes": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "S/M",
+        "L/XL",
+        "M/L"
+      ],
+      "min": 1
+    }
+  },
+  "config": {}
+}

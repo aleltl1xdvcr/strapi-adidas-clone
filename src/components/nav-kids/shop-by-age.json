@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_nav_kids_shop_by_ages",
+  "info": {
+    "displayName": "Shop by Age"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Shop by Age",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Youth & Teens (8-16 years)",
+        "Children (4-8 years)",
+        "Babies & Toddlers (0-4 years)"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

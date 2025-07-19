@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_select_size_type_children_clothing_sizes",
+  "info": {
+    "displayName": "children-clothing-sizes"
+  },
+  "options": {},
+  "attributes": {
+    "childrenClothingSizes": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "4T",
+        "5T",
+        "2XS",
+        "XS"
+      ],
+      "min": 1
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_nav_women_shop_by_sports",
+  "info": {
+    "displayName": "Shop by Sport"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "required": true,
+      "options": [
+        "Basketball",
+        "Cycling",
+        "Golf",
+        "Hiking",
+        "Motorsport",
+        "Outdoor",
+        "Running",
+        "Soccer",
+        "Softball",
+        "Swim",
+        "Tennis",
+        "Volleyball",
+        "Workout & Gym",
+        "Yoga",
+        ""
+      ]
+    }
+  },
+  "config": {}
+}

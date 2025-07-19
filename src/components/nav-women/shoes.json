@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_nav_women_shoes",
+  "info": {
+    "displayName": "Shoes"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "required": true,
+      "options": [
+        "Running",
+        "Soccer ",
+        "Sneakers",
+        "Golf ",
+        "Slides & Sandals",
+        "Workout & Gym",
+        "Shoes 100% & under",
+        "Basketball "
+      ]
+    }
+  },
+  "config": {}
+}

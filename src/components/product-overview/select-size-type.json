@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_product_overview_select_size_types",
+  "info": {
+    "displayName": "Select Size Type"
+  },
+  "options": {},
+  "attributes": {
+    "MenAndWomenSizes": {
+      "type": "component",
+      "component": "select-size-type.men-s-sizes",
+      "repeatable": false
+    },
+    "StandardSizes": {
+      "type": "component",
+      "component": "select-size-type.standard-sizes",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

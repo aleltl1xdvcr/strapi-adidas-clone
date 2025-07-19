@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_product_overview_description_components",
+  "info": {
+    "displayName": "Description Component"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "minLength": 2,
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "text",
+      "minLength": 2,
+      "required": true
+    },
+    "Media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

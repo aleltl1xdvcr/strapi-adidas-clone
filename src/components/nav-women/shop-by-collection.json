@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_nav_women_shop_by_collections",
+  "info": {
+    "displayName": "Shop by Collection"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Shop by Collection",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "adicolor",
+        "Premium Collaborations",
+        "adidas by Stella McCartney",
+        "Gazelle",
+        "Originals",
+        "Samba",
+        "Superstar",
+        "Sportswear",
+        "Supernova",
+        "TERREX",
+        "Ultrabost",
+        "Y-3",
+        "ZNE"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_nav_kids_boys_clothings",
+  "info": {
+    "displayName": "Boys Clothing"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Boys Clothing",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Pants",
+        "Shorts",
+        "Tracksuits",
+        "T-Shirts & Tops",
+        "Jerseys",
+        "Hoodies & Sweatshirts",
+        "Matching Sets",
+        "Jackets & Coats"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_nav_men_shop_by_collections",
+  "info": {
+    "displayName": "Shop By Collection"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Shop by Collection",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "adicolor",
+        "Premium Collaborations",
+        "Five Ten",
+        "Gazelle",
+        "Samba",
+        "Superstar",
+        "Sportswear",
+        "Supernova",
+        "TERREX",
+        "Ultraboos",
+        "Y-3",
+        "ZNE"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

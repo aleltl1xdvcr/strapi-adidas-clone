@@ -1,0 +1,109 @@
+{
+  "kind": "collectionType",
+  "collectionName": "runnings",
+  "info": {
+    "singularName": "running",
+    "pluralName": "runnings",
+    "displayName": "running"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "sections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Running",
+        "Men´s",
+        "Women´s",
+        "TERREX"
+      ],
+      "required": true,
+      "min": 1
+    },
+    "Show_Original_Price": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "color": {
+      "type": "component",
+      "component": "colors.model-colors",
+      "repeatable": true,
+      "required": true,
+      "min": 1
+    },
+    "Sizes": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "6",
+        "6.5",
+        "7",
+        "7.5",
+        "",
+        "8",
+        "",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "",
+        "11",
+        "",
+        "11.5",
+        "",
+        "12",
+        "",
+        "12.5",
+        "13",
+        "14",
+        "15"
+      ],
+      "required": true,
+      "min": 1
+    },
+    "Media": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "Description": {
+      "type": "component",
+      "component": "product-overview.description-component",
+      "repeatable": true,
+      "required": true
+    },
+    "Price": {
+      "type": "decimal",
+      "required": true,
+      "unique": true,
+      "min": 0.1
+    },
+    "ShortDescription": {
+      "type": "component",
+      "component": "product-overview.short-description",
+      "repeatable": false
+    },
+    "SelectSizeType": {
+      "type": "component",
+      "component": "product-overview.select-size-type",
+      "repeatable": false,
+      "required": true
+    }
+  }
+}

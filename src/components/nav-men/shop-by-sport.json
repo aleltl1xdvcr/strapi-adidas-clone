@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_nav_men_shop_by_sports",
+  "info": {
+    "displayName": "Shop By Sport"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Shop by Sport",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "required": true,
+      "options": [
+        "Baseball",
+        "BasketBall",
+        "Cycling",
+        "Football",
+        "Golf",
+        "Hiking",
+        "Motorsport",
+        "Outdoor",
+        "Running",
+        "Soccer",
+        "Tennis",
+        "Workout & Gym",
+        "Yoga"
+      ]
+    }
+  },
+  "config": {}
+}

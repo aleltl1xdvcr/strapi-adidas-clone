@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_nav_women_new_and_trendings",
+  "info": {
+    "displayName": "New & Trending"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "required": true,
+      "options": [
+        "New Arrivals",
+        "Best Sellers",
+        "Graphic Tees",
+        "Taekwondo & Tokyo",
+        "Liberty London Florals",
+        "Soft Lux: All-Day Comfort"
+      ]
+    }
+  },
+  "config": {}
+}

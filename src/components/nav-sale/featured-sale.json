@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_nav_sale_featured_sales",
+  "info": {
+    "displayName": "Featured Sale"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Featured Sale",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Final Sale"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

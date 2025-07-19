@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_nav_kid_s_sections",
+  "info": {
+    "displayName": "Kid's section"
+  },
+  "options": {},
+  "attributes": {
+    "NewAndTrending": {
+      "type": "component",
+      "component": "nav-kids.new-and-trending",
+      "repeatable": false,
+      "required": true
+    },
+    "BoysShoes": {
+      "type": "component",
+      "component": "nav-kids.boys-shoes",
+      "repeatable": false,
+      "required": true
+    },
+    "BoysClothing": {
+      "type": "component",
+      "component": "nav-kids.boys-clothing",
+      "repeatable": false,
+      "required": true
+    },
+    "GirlsShoes": {
+      "type": "component",
+      "component": "nav-kids.girls-shoes",
+      "repeatable": false,
+      "required": true
+    },
+    "GirlsClothing": {
+      "type": "component",
+      "component": "nav-kids.girls-clothing",
+      "repeatable": false,
+      "required": true
+    },
+    "BabiesAndToddlers": {
+      "type": "component",
+      "component": "nav-kids.babies-and-toddlers",
+      "repeatable": false,
+      "required": true
+    },
+    "ShopByAge": {
+      "type": "component",
+      "component": "nav-kids.shop-by-age",
+      "repeatable": false,
+      "required": true
+    },
+    "ShopByColor": {
+      "type": "component",
+      "component": "nav-kids.shop-by-color",
+      "repeatable": false,
+      "required": true
+    },
+    "Accesories": {
+      "type": "component",
+      "component": "nav-kids.accesories",
+      "repeatable": false,
+      "required": true
+    },
+    "ShopBySport": {
+      "type": "component",
+      "component": "nav-kids.shop-by-sport",
+      "repeatable": false,
+      "required": true
+    }
+  },
+  "config": {}
+}

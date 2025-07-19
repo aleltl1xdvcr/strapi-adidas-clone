@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_nav_new_and_trending_originals",
+  "info": {
+    "displayName": "Originals"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Originals",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Forum",
+        "Gazelle",
+        "adicolor",
+        "Originals Clothing",
+        "Samba",
+        "Stan Smith",
+        "Superstar"
+      ],
+      "required": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

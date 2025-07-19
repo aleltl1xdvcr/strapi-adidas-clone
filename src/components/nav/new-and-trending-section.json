@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_nav_new_and_trending_sections",
+  "info": {
+    "displayName": "New & Trending section"
+  },
+  "options": {},
+  "attributes": {
+    "WhatsNew": {
+      "type": "component",
+      "component": "nav-new-and-trending.what-s-new",
+      "repeatable": false,
+      "required": true
+    },
+    "Collaborations": {
+      "type": "component",
+      "component": "nav-new-and-trending.collaborations",
+      "repeatable": false,
+      "required": true
+    },
+    "OurWorld": {
+      "type": "component",
+      "component": "nav-new-and-trending.our-world",
+      "repeatable": false,
+      "required": true
+    },
+    "Sport": {
+      "type": "component",
+      "component": "nav-new-and-trending.sports",
+      "repeatable": false,
+      "required": true
+    },
+    "Originals": {
+      "type": "component",
+      "component": "nav-new-and-trending.originals",
+      "repeatable": false,
+      "required": true
+    },
+    "Collections": {
+      "type": "component",
+      "component": "nav-new-and-trending.collections",
+      "repeatable": false,
+      "required": true
+    }
+  },
+  "config": {}
+}

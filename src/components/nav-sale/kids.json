@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_nav_sale_kids",
+  "info": {
+    "displayName": "Kids"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Kids",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Boys Sale",
+        "Girls Sale"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}

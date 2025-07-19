@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_nav_men_clothing",
+  "info": {
+    "displayName": "Clothing"
+  },
+  "options": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string",
+      "default": "Clothing",
+      "required": true,
+      "unique": true
+    },
+    "ListOfSections": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "Pants ",
+        "Shorts",
+        "T-Shirts & Tops",
+        "Jerseys",
+        "Tracksuites",
+        "Hoodies & Sweatshirts",
+        "Jackets & Coats"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+}
